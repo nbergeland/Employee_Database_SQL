@@ -1,0 +1,35 @@
+employees
+-
+emp_no int pk 
+birth_date date
+first_name text
+last_name text
+gender text
+hire_date date
+
+department_manager
+-
+dept_no int fk - departments.dept_no
+emp_no int pk fk - employees.emp_no
+from_date date
+to_date date
+
+departments
+-
+dept_no pk 
+dept_name
+
+dept_emp
+-
+emp_no pk fk - employees.emp_no
+dept_no pk fk - departments.dept_no
+from_date
+to_date
+
+salaries
+-
+salary
+emp_no pk fk employees.emp_no
+from_date
+to_date
+
