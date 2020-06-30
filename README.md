@@ -1,4 +1,4 @@
-# sql_challenge
+# Pewlet Hackard
 --Q1
 SELECT 
 emp.emp_no, emp.last_name, emp.first_name, emp.gender, sal.salary
