@@ -90,7 +90,7 @@ where
  dept.dept_no = demp.dept_no and 
  (dept.dept_name = 'Sales' or  dept.dept_name = 'Development') and
  demp.to_date = to_date('9999-01-01','YYYY-MM-DD');
- 
+  
 --Q8
 select 
 count(*), 
